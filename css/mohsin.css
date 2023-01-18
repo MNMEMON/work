@@ -1,0 +1,247 @@
+.men{
+    width: 700px;
+    background-color: white;
+    height: 50px;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.inputleft {
+    padding-left:35px;
+    border: 2px solid #acacac;
+    font-size: 1em;
+    width: 300px;
+    margin-top: 10px;
+}
+.iconnameleft {
+    position: relative;
+    font-size: 1.3em;
+    z-index: 1;
+    left: 10px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
+.car h1{
+    color: white;
+}
+.all img{
+    border-radius: 50%;
+    height: 200px;
+}
+
+.pic{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* font-size: 25px; */
+}
+.all h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.all p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.banner{
+    height: 350px;
+    background-color: blue;
+    padding: 10px;
+}
+.ban img {
+    border-radius: 50%;
+    width: 100px;
+}
+.ban{
+    margin-top: 50px;
+}
+.ban1 img{
+    width: 300px;
+    height: 200px;
+}
+.ban h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.ban p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.hed{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.hed1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.hed1{
+    margin-top: -30px;
+}
+
+.first img{
+  /* padding: 10px; */
+    border-radius: 50%;
+    margin-top: 60px;
+
+}
+.first p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    /* color: white; */
+   text-align: left;
+  }
+  .first h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* color: white; */
+  }
+  .car p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  footer{
+    background-color: blue;
+    height: auto;
+    /* margin-top: 90px; */
+    border: 1px solid white;
+}
+.foter p{
+    font-size: 15px;
+    color: white;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    align-items: center;
+    margin: 20px 0px 16px;  
+}
+footer label{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: white;
+    margin-top: 20px;
+}
+.foter1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: white;
+    margin-top: 40px;
+}
+.foter1 p{
+    font-size: 16px;
+    color: white;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    /* margin: 20px 0px 16px; */
+}
+.foter i{
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.99s;
+}
+.foter i:hover{
+   background-color: #0d6ffd;
+   transform: rotate(-360deg);
+}
+.foter2 p{
+    font-size: 16px;
+    color: white;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.foter3 p{
+    font-size: 16px;
+    color: white;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.foter3 h1{
+    font-size: 30px;
+    color: white;
+    /* text-align: center; */
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    margin-top: 30px;
+}
+
+@media(max-width:414px)
+{
+    .nav-link{
+        font-size: 10px;
+       
+    }
+    .hed{
+        margin-top: 30px;
+    }
+    .men{
+        height: auto;
+        padding: 20px;
+    }
+    .men input {
+       display: block;
+       /* padding: 20px; */
+       width: 200px;
+       margin-top: -10px;
+       margin-left: -350px;
+    }
+
+    .men button {
+        display: block;
+        /* padding: 20px; */
+        margin-top: 20px;
+        margin-left: -420px;
+     }
+
+    .iconnameleft {
+        position: relative;
+        font-size: 1.3em;
+        /* z-index: 1; */
+        left: -270px;
+        top: 17px;
+        color: #7B7B7B;
+        cursor:pointer;
+        width: 0;
+    }
+    .all img{
+        border-radius: 50%;
+        height: 300px;
+        /* width: 200px; */
+}
+    
+}
+
+
+@media(max-width:1000px)
+{
+    .banner{
+        height: auto;
+        /* background-color: #ffc107; */
+    }
+    .hed1{
+        margin-top: 30px;
+    }
+      
+}
